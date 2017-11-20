@@ -19,9 +19,9 @@ public class Main {
             shape = shapeCalc.createShape();
             readComplete = true;
         } catch (InputMismatchException e) {
-            System.out.println("Wprowadziłeś dane w złym formacie, spróbuj ponownie");
+            System.out.println("Not correct data format, please try again");
         } catch (NoSuchElementException e) {
-            System.out.println("Wybrany identyfikator kształtu jest niepoprawny, spróbuj ponownie");
+            System.out.println("Shape not correct, please try again");
         }
     }
 
